@@ -9,8 +9,8 @@ class Emaus < Feed
   end
 
   def link
-    # "http://www.emaus.czest.pl/"
-    "index.html"
+    "http://www.emaus.czest.pl/"
+    # "index.html"
   end
 
   def items
