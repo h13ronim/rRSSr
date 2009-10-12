@@ -11,7 +11,8 @@ require 'feed'
 
 FEEDS = [
   "w24czestochowa",
-  "emaus"
+  "emaus",
+  "polskalokalnaczwa"
 ]
 
 FEEDS.each do |feed|
