@@ -9,8 +9,8 @@ class Polskalokalnaczwa < Feed
   end
 
   def link
-    # "http://polskalokalna.pl/wiadomosci/slaskie/czestochowa"
-    "czestochowa.html"
+    "http://polskalokalna.pl/wiadomosci/slaskie/czestochowa"
+    # "czestochowa.html"
   end
 
   def items
