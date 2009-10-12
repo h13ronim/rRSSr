@@ -7,7 +7,7 @@ class Feed
   end
 
   def encoding
-    "utf-8"
+    "UTF-8"
   end
 
   def title
