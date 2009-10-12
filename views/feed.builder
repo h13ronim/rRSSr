@@ -1,5 +1,5 @@
 xml.instruct! :xml, :version => '1.0', :encoding => @feed.encoding
-xml.rss :version => "2.0" do
+xml.rss :version => "2.0", :encoding => @feed.encoding do
   xml.channel do
     xml.title @feed.title
     xml.description @feed.description
