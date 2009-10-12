@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title rRSSr
+  %body
+    %h1 rRSSr
+    %p Feeds:
+    %ul
+      - @feeds.each do |feed|
+        %li
+          %a{:href => feed_path(feed)}= feed.title
