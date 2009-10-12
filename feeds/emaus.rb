@@ -30,10 +30,6 @@ class Emaus < Feed
       @description ||= @doc_item.css("div.contenttxt").first.content.strip
     end
 
-    def pub_date
-      false
-    end
-
     def guid
       ["http://www.emaus.czest.pl/#", @doc_item.css("a.likebutton").first[:id]].join
     end

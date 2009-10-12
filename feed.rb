@@ -47,7 +47,7 @@ class Feed
     end
 
     def pub_date
-      raise "Not implemented!"
+      false
     end
 
     def guid
